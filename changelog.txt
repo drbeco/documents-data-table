@@ -1,3 +1,14 @@
+= 1.4 =
+2020-05-01
+
+* New plugin name: documents-data-table
+* Forked from posts-data-table
+* Renamed all files from posts-data-table* to documents-data-table*
+* Changed all file contents with "posts-data-table" to "documents-data-table"
+* Changed post\_type => 'posts' to post\_type => 'document'
+* Added forked info to README.md
+* Added version 1.4 to this file (changelog.txt)
+
 = 1.3 =
 16 November 2019
 
