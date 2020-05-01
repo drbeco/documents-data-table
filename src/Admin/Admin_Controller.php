@@ -40,7 +40,7 @@ class Admin_Controller implements Registerable, Service {
             $links,
             \sprintf( '<a href="%1$s">%2$s</a>',
                 \esc_url( \admin_url( 'options-general.php?page=' . Settings_Page::MENU_SLUG ) ),
-                \esc_html__( 'Settings', 'posts-data-table' )
+                \esc_html__( 'Settings', 'documents-data-table' )
             )
         );
         return $links;
@@ -50,7 +50,7 @@ class Admin_Controller implements Registerable, Service {
         if ( $file === $this->plugin->get_basename() ) {
             $links[] = \sprintf( '<a href="%1$s" target="_blank"><strong>%2$s</strong></a>',
                 \esc_url( 'https://barn2.co.uk/wordpress-plugins/posts-table-pro/' ),
-                \esc_html__( 'Pro Version', 'posts-data-table' )
+                \esc_html__( 'Pro Version', 'documents-data-table' )
             );
         }
 
@@ -60,7 +60,7 @@ class Admin_Controller implements Registerable, Service {
     public function settings_page_scripts( $hook ) {
         if ( 'settings_page_posts_table_search_sort' === $hook ) {
             $suffix = Util::get_script_suffix();
-            \wp_enqueue_style( 'ptss-admin', \plugins_url( "assets/css/admin/posts-data-table-admin{$suffix}.css", $this->plugin->get_file() ), array(), $this->plugin->get_version() );
+            \wp_enqueue_style( 'ptss-admin', \plugins_url( "assets/css/admin/documents-data-table-admin{$suffix}.css", $this->plugin->get_file() ), array(), $this->plugin->get_version() );
         }
     }
 

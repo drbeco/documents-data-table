@@ -65,37 +65,37 @@ class Simple_Posts_Table {
              */
             self::$column_defaults = array(
                 'id'       => array(
-                    'heading'  => __( 'ID', 'posts-data-table' ),
+                    'heading'  => __( 'ID', 'documents-data-table' ),
                     'priority' => 3,
                     'width'    => ''
                 ),
                 'title'    => array(
-                    'heading'  => __( 'Title', 'posts-data-table' ),
+                    'heading'  => __( 'Title', 'documents-data-table' ),
                     'priority' => 1,
                     'width'    => ''
                 ),
                 'category' => array(
-                    'heading'  => __( 'Categories', 'posts-data-table' ),
+                    'heading'  => __( 'Categories', 'documents-data-table' ),
                     'priority' => 6,
                     'width'    => ''
                 ),
                 'tags'     => array(
-                    'heading'  => __( 'Tags', 'posts-data-table' ),
+                    'heading'  => __( 'Tags', 'documents-data-table' ),
                     'priority' => 7,
                     'width'    => ''
                 ),
                 'date'     => array(
-                    'heading'  => __( 'Date', 'posts-data-table' ),
+                    'heading'  => __( 'Date', 'documents-data-table' ),
                     'priority' => 2,
                     'width'    => ''
                 ),
                 'author'   => array(
-                    'heading'  => __( 'Author', 'posts-data-table' ),
+                    'heading'  => __( 'Author', 'documents-data-table' ),
                     'priority' => 4,
                     'width'    => ''
                 ),
                 'content'  => array(
-                    'heading'  => __( 'Content', 'posts-data-table' ),
+                    'heading'  => __( 'Content', 'documents-data-table' ),
                     'priority' => 5,
                     'width'    => ''
                 )
@@ -291,7 +291,7 @@ class Simple_Posts_Table {
             $author = \sprintf(
                 '<a href="%1$s" title="%2$s" rel="author">%3$s</a>',
                 \esc_url( \get_author_posts_url( $_post->post_author ) ),
-                \esc_attr( \sprintf( __( 'Posts by %s', 'posts-data-table' ), \get_the_author() ) ),
+                \esc_attr( \sprintf( __( 'Posts by %s', 'documents-data-table' ), \get_the_author() ) ),
                 \get_the_author()
             );
 
@@ -327,7 +327,7 @@ class Simple_Posts_Table {
         }
 
         $offset_attr = ( $args['scroll_offset'] === false ) ? 'false' : $args['scroll_offset'];
-        $table_class = 'posts-data-table';
+        $table_class = 'documents-data-table';
 
         if ( ! $args['wrap'] ) {
             $table_class .= ' nowrap';

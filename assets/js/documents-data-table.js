@@ -3,7 +3,7 @@
 
 	$( document ).ready( function() {
 
-		var tables = $( '.posts-data-table' );
+		var tables = $( '.documents-data-table' );
 		var adminBarVisible = $( '#wpadminbar' ).length;
 
 		tables.each( function() {

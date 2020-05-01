@@ -101,7 +101,7 @@ Thank you for using our WordPress table plugin, and enjoy your Post Table :)
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/posts-data-table` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/documents-data-table` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Go to *Settings > Posts Table With Search & Sort* and configure your post tables.
 3. Add the shortcode `[posts_data_table]` to any page.
@@ -115,7 +115,7 @@ Simply choose your options at *Settings > Posts Table With Search & Sort*, then 
 By default it will list all of your posts, but you can use the 'category', 'tag', 'author' or 'post_status' option in the shortcode to restrict the table to that category/tag/author/status only.
 
 = What are the shortcode options? =
-See the main [plugin description](https://wordpress.org/plugins/posts-data-table/) above for the list of options.
+See the main [plugin description](https://wordpress.org/plugins/documents-data-table/) above for the list of options.
 
 = Can I see a demo of the plugin? =
 Yes, please visit [our demo page](https://barn2.co.uk/posts-table/) to see the posts table in action.

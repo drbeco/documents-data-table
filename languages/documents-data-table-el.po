@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-WPHeader: posts-data-table.php\n"
+"X-Poedit-WPHeader: documents-data-table.php\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
 "__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
 "_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
@@ -24,40 +24,40 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/class-posts-data-table-simple.php:54
+#: includes/class-documents-data-table-simple.php:54
 msgid "ID"
 msgstr "Κωδικός"
 
-#: includes/class-posts-data-table-simple.php:59
+#: includes/class-documents-data-table-simple.php:59
 msgid "Title"
 msgstr "Τίτλος"
 
-#: includes/class-posts-data-table-simple.php:64
+#: includes/class-documents-data-table-simple.php:64
 msgid "Categories"
 msgstr "Κατηγορίες"
 
-#: includes/class-posts-data-table-simple.php:69
+#: includes/class-documents-data-table-simple.php:69
 msgid "Tags"
 msgstr ""
 
-#: includes/class-posts-data-table-simple.php:74
+#: includes/class-documents-data-table-simple.php:74
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: includes/class-posts-data-table-simple.php:79
+#: includes/class-documents-data-table-simple.php:79
 msgid "Author"
 msgstr "Αρθρογράφος"
 
-#: includes/class-posts-data-table-simple.php:84
+#: includes/class-documents-data-table-simple.php:84
 msgid "Content"
 msgstr "Περιεχόμενο"
 
-#: includes/class-posts-data-table-simple.php:274
+#: includes/class-documents-data-table-simple.php:274
 #, php-format
 msgid "Posts by %s"
 msgstr ""
 
-#: posts-data-table.php:109
+#: documents-data-table.php:109
 msgid "Posts Table Pro"
 msgstr ""
 
@@ -66,7 +66,7 @@ msgid "Posts Table with Search & Sort"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://wordpress.org/plugins/posts-data-table/"
+msgid "https://wordpress.org/plugins/documents-data-table/"
 msgstr ""
 
 #. Description of the plugin/theme

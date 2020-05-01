@@ -5,12 +5,12 @@
  *
  * @wordpress-plugin
  * Plugin Name:     Posts Table with Search & Sort
- * Plugin URI:      https://wordpress.org/plugins/posts-data-table/
+ * Plugin URI:      https://wordpress.org/plugins/documents-data-table/
  * Description:     Provides a shortcode to show a list of your posts in an instantly searchable & sortable table.
  * Version:         1.3
  * Author:          Barn2 Media
  * Author URI:      https://barn2.co.uk
- * Text Domain:     posts-data-table
+ * Text Domain:     documents-data-table
  * Domain Path:     /languages
  *
  * Copyright:       Barn2 Media Ltd

@@ -77,7 +77,7 @@ class Plugin extends Simple_Plugin implements Registerable, Service_Provider {
     }
 
     public function load_textdomain() {
-        load_plugin_textdomain( 'posts-data-table', false, \dirname( $this->get_basename() ) . '/languages' );
+        load_plugin_textdomain( 'documents-data-table', false, \dirname( $this->get_basename() ) . '/languages' );
     }
 
 }
