@@ -1,3 +1,18 @@
+== Documents Data Table with Search & Sort ==
+
+=== documents-data-table plugin ===
+
+This is a fork from the original plugin Posts Table with Search & Sort (see bellow).
+
+The free version of the original plugin, licenced GPL 3.0, allowed to see only one type of posts at "post\_type", namely "post".
+
+This version changes the post\_type to "document".
+
+Contributors: drbeco
+Date: 2020-05-01
+
+== Old readme from the original forked, for the record ==
+
 === Posts Table with Search & Sort ===
 Contributors: andykeith, barn2media
 Donate link: https://barn2.co.uk
@@ -170,3 +185,4 @@ We have developed this free plugin to be flexible and easy to configure so that 
  * Tested up to WordPress 5.3.
 
 See changelog.txt for more details.
+
