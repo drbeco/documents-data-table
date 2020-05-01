@@ -1,4 +1,4 @@
-== Documents Data Table with Search & Sort ==
+== Documents Data Table with Search \& Sort ==
 
 === documents-data-table plugin ===
 
@@ -8,12 +8,13 @@ The free version of the original plugin, licenced GPL 3.0, allowed to see only o
 
 This version changes the post\_type to "document".
 
-Contributors: drbeco
+Contributors: drbeco, luizcordeirosn
 Date: 2020-05-01
 
 == Old readme from the original forked, for the record ==
 
-=== Posts Table with Search & Sort ===
+=== Posts Table with Search \& Sort ===
+
 Contributors: andykeith, barn2media
 Donate link: https://barn2.co.uk
 Tags: wordpress table plugin, data-table plugin, table plugin, table, wordpress table
