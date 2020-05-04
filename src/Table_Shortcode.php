@@ -14,11 +14,11 @@ use Barn2\Lib\Registerable,
  */
 class Table_Shortcode implements Registerable, Service {
 
-    const SHORTCODE = 'posts_table';
+    const SHORTCODE = 'documents_table';
 
     public function register() {
         add_shortcode( self::SHORTCODE, array( $this, 'do_shortcode' ) );
-        add_shortcode( 'posts_data_table', array( $this, 'do_shortcode' ) ); // back compat: support old shortcode
+        add_shortcode( 'documents_data_table', array( $this, 'do_shortcode' ) ); // back compat: support old shortcode
     }
 
     /**
