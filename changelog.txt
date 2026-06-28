@@ -1,3 +1,9 @@
+= 1.5 =
+2026-06-28
+
+* bugfix syntax error unexpected token \ at Simple_Posts_Table.php
+* added VERSION file (1.5)
+
 = 1.4 =
 2020-05-01
 
