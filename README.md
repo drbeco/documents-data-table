@@ -9,7 +9,7 @@ The free version of the original plugin, licenced GPL 3.0, allowed to see only o
 This version changes the post\_type to "document".
 
 Contributors: drbeco, luizcordeirosn
-Stable tag: 1.6
+Stable tag: 1.7
 Forked: 2020-05-01
 Updated: 2026-06-28
 

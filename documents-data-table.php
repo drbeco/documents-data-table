@@ -5,9 +5,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:     Documents Table with Search & Sort
- * Plugin URI:      https://wordpress.org/plugins/documents-data-table/
+ * Plugin URI:      https://github.com/drbeco/documents-data-table
  * Description:     Provides a shortcode to show a list of your documents in an instantly searchable & sortable table.
- * Version:         1.6
+ * Version:         1.7
  * Author:          drbeco, luizcordeirosn
  * Author URI:      https://github.com/drbeco/documents-data-table
  * Text Domain:     documents-data-table
@@ -24,7 +24,7 @@ if ( ! defined( '\ABSPATH' ) ) {
     exit;
 }
 
-const PLUGIN_VERSION = '1.6';
+const PLUGIN_VERSION = '1.7';
 const PLUGIN_FILE    = __FILE__;
 
 // Autoloader.

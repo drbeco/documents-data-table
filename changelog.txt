@@ -1,3 +1,8 @@
+= 1.7 =
+2026-06-28
+
+* Changed Plugin URI to the fork repo (https://github.com/drbeco/documents-data-table) to avoid wordpress.org slug collision triggering unwanted updates
+
 = 1.6 =
 2026-06-28
 
