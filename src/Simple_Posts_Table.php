@@ -285,7 +285,7 @@ class Simple_Posts_Table {
             \setup_postdata( $_post );
 
             // Format title
-            $title = \sprintf( '<a href="%1$s">%2$s</a>', \get_permalink( $_post ), \ get_the_title( $_post ) );
+            $title = \sprintf( '<a href="%1$s">%2$s</a>', \get_permalink( $_post ), \get_the_title( $_post ) );
 
             // Format author
             $author = \sprintf(
