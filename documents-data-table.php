@@ -4,7 +4,7 @@
  * The main plugin file for Posts Table with Search & Sort.
  *
  * @wordpress-plugin
- * Plugin Name:     Posts Table with Search & Sort
+ * Plugin Name:     Documents Table with Search & Sort
  * Plugin URI:      https://wordpress.org/plugins/documents-data-table/
  * Description:     Provides a shortcode to show a list of your posts in an instantly searchable & sortable table.
  * Version:         1.3
