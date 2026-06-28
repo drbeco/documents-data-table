@@ -1,3 +1,10 @@
+= 1.6 =
+2026-06-28
+
+* Updated plugin header: name, description (documents), version, author (drbeco, luizcordeirosn)
+* Bumped version to 1.6 in header, PLUGIN_VERSION constant, and VERSION file
+* Updated README.md fork section
+
 = 1.5 =
 2026-06-28
 

@@ -1,15 +1,15 @@
 <?php
 
 /**
- * The main plugin file for Posts Table with Search & Sort.
+ * The main plugin file for Documents Table with Search & Sort.
  *
  * @wordpress-plugin
  * Plugin Name:     Documents Table with Search & Sort
  * Plugin URI:      https://wordpress.org/plugins/documents-data-table/
- * Description:     Provides a shortcode to show a list of your posts in an instantly searchable & sortable table.
- * Version:         1.3
- * Author:          Barn2 Media
- * Author URI:      https://barn2.co.uk
+ * Description:     Provides a shortcode to show a list of your documents in an instantly searchable & sortable table.
+ * Version:         1.6
+ * Author:          drbeco, luizcordeirosn
+ * Author URI:      https://github.com/drbeco/documents-data-table
  * Text Domain:     documents-data-table
  * Domain Path:     /languages
  *
@@ -24,7 +24,7 @@ if ( ! defined( '\ABSPATH' ) ) {
     exit;
 }
 
-const PLUGIN_VERSION = '1.3';
+const PLUGIN_VERSION = '1.6';
 const PLUGIN_FILE    = __FILE__;
 
 // Autoloader.
